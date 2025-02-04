@@ -1,0 +1,28 @@
+echo "# AzureTutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/discover-devops/AzureTutorial.git
+git push -u origin main
+
+Adding a REMOTE REPO to LOCAL 
+
+git remote add <local_name> <remote_url>
+
+git push -u orgin main
+
+orgin == https://github.com/discover-devops/AzureTutorial.git 
+
+Local Git $ git fetch
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 2.06 KiB | 57.00 KiB/s, done.
+From https://github.com/discover-devops/AzureTutorial
+   6c57cad..5bc3b31  main       -> origin/main
+Local Git $
+
+
+git pull origin main
